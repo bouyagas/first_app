@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.0'
+gem 'rails', '5.0.0'
 
 
 group :development do
@@ -8,18 +8,18 @@ group :development do
 end
 
 group :assets do
-	gem 'sass-rails' 
-	gem 'uglifier'
-	gem 'coffee-rails'
+	gem 'sass-rails' , '>= 5.0.5'
+	gem 'uglifier', '>= 2.7.2'
+	gem 'coffee-rails', '>= 4.1.1'
 end
 
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 
-gem 'turbolinks'
+gem 'turbolinks', '>= 5.0.0'
 
 
-gem 'jbuilder'
+gem 'jbuilder', '>= 1.5.3'
 
 group :doc do
   gem 'sdoc', require: false
