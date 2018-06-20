@@ -8,7 +8,7 @@ group :development do
 end
 
 group :assets do
-	gem 'sass-rails' 
+	gem 'sass-rails' , '>= 4.0.5'
 	gem 'uglifier'
 	gem 'coffee-rails'
 end
