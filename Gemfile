@@ -8,18 +8,18 @@ group :development do
 end
 
 group :assets do
-	gem 'sass-rails' 
+	gem 'sass-rails' , '>= 4.0.3'
 	gem 'uglifier'
-	gem 'coffee-rails'
+	gem 'coffee-rails', '>= 4.0.1'
 end
 
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 3.1.2'
 
-gem 'turbolinks'
+gem 'turbolinks', '>= 2.3.0'
 
 
-gem 'jbuilder'
+gem 'jbuilder', '>= 1.5.3'
 
 group :doc do
   gem 'sdoc', require: false
