@@ -9,7 +9,7 @@ end
 
 group :assets do
 	gem 'sass-rails' 
-	gem 'uglifier'
+	gem 'uglifier', '>= 2.5.3'
 	gem 'coffee-rails'
 end
 
@@ -22,7 +22,7 @@ gem 'turbolinks'
 gem 'jbuilder'
 
 group :doc do
-  gem 'sdoc', require: false
+  gem 'sdoc', '>= 1.0.0', require: false
 end
 
 # Use ActiveModel has_secure_password
