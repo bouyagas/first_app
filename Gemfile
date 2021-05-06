@@ -22,7 +22,7 @@ gem 'turbolinks'
 gem 'jbuilder'
 
 group :doc do
-  gem 'sdoc', require: false
+  gem 'sdoc', '>= 1.0.0', require: false
 end
 
 # Use ActiveModel has_secure_password
