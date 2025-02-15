@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.0'
+gem 'rails', '7.0.0'
 
 
 group :development do
@@ -8,7 +8,7 @@ group :development do
 end
 
 group :assets do
-	gem 'sass-rails' 
+	gem 'sass-rails' , '>= 6.0.0'
 	gem 'uglifier'
 	gem 'coffee-rails'
 end
@@ -16,7 +16,7 @@ end
 
 gem 'jquery-rails'
 
-gem 'turbolinks'
+gem 'turbolinks', '>= 5.0.0'
 
 
 gem 'jbuilder'
