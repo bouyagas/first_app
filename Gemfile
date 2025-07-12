@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.0'
+gem 'rails', '7.1.0'
 
 
 group :development do
@@ -10,19 +10,19 @@ end
 group :assets do
 	gem 'sass-rails' 
 	gem 'uglifier'
-	gem 'coffee-rails'
+	gem 'coffee-rails', '>= 4.2.2'
 end
 
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 
 gem 'turbolinks'
 
 
-gem 'jbuilder'
+gem 'jbuilder', '>= 2.0.0'
 
 group :doc do
-  gem 'sdoc', require: false
+  gem 'sdoc', '>= 1.0.0', require: false
 end
 
 # Use ActiveModel has_secure_password
